@@ -108,10 +108,6 @@ int calculateMaxNoOfNobs(int *arr, int len)
                     Insert(H, arr[i]);
                     sum += arr[i];
                 }
-                else
-                {
-                    continue;
-                }
             }
         }
     }
